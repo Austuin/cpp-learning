@@ -173,11 +173,26 @@ int main() {
 			continue;
 		}
 	}*/
+
+	/*
 	srand(time(nullptr));
 	for (int i = 1; i <= 10; i++)
 	{
 		int value = rand() % 6 + 1;
 		std::cout << "Roll " << i << ": " << value << std::endl;	
 	}
-	return 0;
+	return 0;*/
+
+	const int Array_Size = 10;
+
+	int Numbs[Array_Size];
+
+	for (int i = 0; i < Array_Size; i++)
+	{
+		Numbs[i] = i + 1;
+	}
+	for (int number: Numbs)
+	{
+		std::cout << number << std::endl;
+	}
 }
