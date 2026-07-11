@@ -1,0 +1,2 @@
+This is a leariong course for learning how to code in c++, and workiong on my fundamentals of c++ programming. This course will cover the basics of c++ syntax, data types, control structures, functions, and object-oriented programming concepts.
+I will use no AI besides googling when im stuck.

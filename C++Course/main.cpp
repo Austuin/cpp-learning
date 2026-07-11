@@ -2,6 +2,8 @@
 #include <string>
 #include <cstdlib>
 #include <ctime>
+#include <array>
+#include <vector>
 
 int main() {
 	// Number Section
@@ -179,20 +181,32 @@ int main() {
 	for (int i = 1; i <= 10; i++)
 	{
 		int value = rand() % 6 + 1;
-		std::cout << "Roll " << i << ": " << value << std::endl;	
+		std::cout << "Roll " << i << ": " << value << std::endl;
 	}
 	return 0;*/
 
-	const int Array_Size = 10;
+	//const int Array_Size = 10;
 
-	int Numbs[Array_Size];
+	//int Numbs[Array_Size];
 
-	for (int i = 0; i < Array_Size; i++)
-	{
-		Numbs[i] = i + 1;
-	}
-	for (int number: Numbs)
-	{
-		std::cout << number << std::endl;
-	}
+	//for (int i = 0; i < Array_Size; i++)
+	//{
+	//	Numbs[i] = i + 1;
+	//}
+	//for (int number: Numbs)
+	//{
+	//	std::cout << number << std::endl;
+	//	std::cout << number << std::endl;
+	//}
+
+	//std::vector<std::string> Names{"Jess","James","Jimmy","Jack", "Jacob"};
+
+	//Names.insert(Names.begin() + 3 , "Rose"); // 
+
+	//for (const auto& name : Names)
+	//	std::cout << name << std::endl;
+	//Names.pop_back(); // removes the last element from the vector
+	//for (const auto& name : Names)
+	//	std::cout << name << std::endl;
+	
 }
