@@ -4,6 +4,6 @@
     <Platform Name="x86" />
   </Configurations>
   <Folder Name="/C++Course/">
-    <Project Path="C++Course/C++Course.vcxproj" />
+    <Project Path="C++Course/C++Course.vcxproj" Id="3ccd2dab-da71-4390-ad14-f8c4ff9b6ad7" />
   </Folder>
 </Solution>
